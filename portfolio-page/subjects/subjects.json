@@ -1,0 +1,77 @@
+[
+  {
+    "shortName": "IWSI",
+    "subjectName": "IWSI - Inżynieria wsteczna systemów informatycznych",
+    "subjectDescription": [
+      "Inżynieria wsteczna/odwrotna (ang. Reverse Engineering) jest procesem, w którym dokonuje się dekonstrukcji produktu w celu wyodrębnienia z niego informacji projektowych. Często polega ona na dekonstrukcji poszczególnych elementów większych produktów czy systemów. Proces ten umożliwia określenie w jaki sposób produkt zaprojektowano, dzięki czemu mamy możliwość jego odtworzenia.",
+      "W ramach tego przedmiotu poznamy podstawy i narzędzia, które przydadzą się nam w procesie inżynierii wstecznej całych systemów informatycznych.",
+      "Poznamy elementy związane zarówno z bezpieczeństwem aplikacji, samymi sieciami teleinformatycznymi czy wejdziemy w głąb kodu oprogramowania."
+    ],
+    "subjectFiles": [
+      {
+        "fileName": "k2as0wm_inzynieria_wsteczna_systemow_informatycznych.pdf",
+        "title": "Sylabus"
+      },
+      {
+        "fileName": "Inżynieria wsteczna systemów informatycznych.pptx",
+        "title": "Inżynieria wsteczna systemów informatycznych"
+      }
+    ],
+    "subjectLinks": []
+  },
+  {
+    "shortName": "TPI",
+    "subjectName": "TPI - Teoretyczne podstawy informatyki",
+    "subjectDescription": [
+      "Przedmiot Teoretyczne Podstawy Informatyki to kompleksowe wprowadzenie do kluczowych koncepcji w dziedzinie informatyki.",
+      "Rozpoczynając od kodowania problemów decyzyjnych, nauczymy się, jak przekształcać różnorodne problemy w formie algorytmicznej, co jest podstawą do zrozumienia procesów decyzyjnych w informatyce. Następnie przejdziemy do omówienia Maszyny Turinga, fundamentalnego modelu obliczeniowego, który jest niezbędny dla pojęcia obliczalności. Kolejny etap to złożoność obliczeniowa algorytmów, gdzie studenci biorą pod lupę efektywność algorytmów, analizując ich zużycie zasobów i czasu. Następnie skupimy się na automatach i wyrażeniach regularnych, które są kluczowe dla przetwarzania wzorców i ciągów danych przez komputery. Na koniec, studenci zagłębiają się w tematykę gramatyk i języków gramatyk, co jest istotne dla zrozumienia konstrukcji języków programowania i działania kompilatorów. Przedmiot ten stanowi istotną bazę dla zrozumienia teoretycznych podstaw informatyki i jest niezbędny do dalszych studiów i badań w tej dziedzinie."
+    ],
+    "subjectFiles": [
+      {
+        "fileName": "i2_s1ci_teoretyczne_podstawy_informatyki.pdf",
+        "title": "Sylabus"
+      },
+      {
+        "fileName": "ćwiczenia nr 1 - TPI.pptx",
+        "title": "Ćwiczenia nr 1 - TPI"
+      },
+      {
+        "fileName": "ćwiczenia nr 2 - TPI.pptx",
+        "title": "Ćwiczenia nr 2 - TPI"
+      },
+      {
+        "fileName": "ćwiczenia nr 3 - TPI.pptx",
+        "title": "Ćwiczenia nr 3 - TPI"
+      },
+      {
+        "fileName": "ćwiczenia nr 4 - TPI.pptx",
+        "title": "Ćwiczenia nr 4 - TPI"
+      },
+      {
+        "fileName": "ćwiczenia nr 5 - TPI.pptx",
+        "title": "Ćwiczenia nr 5 - TPI"
+      }
+    ],
+    "subjectLinks": [
+      {
+        "link": "https://www.youtube.com/watch?v=0GTzOmaJfXM",
+        "title": "Sim DTM Objaśnienie"
+      },
+      {
+        "link": "https://www.wykop.pl/link/1830842/fizyczny-symulator-maszyny-turinga/strona/2/",
+        "title": "Fizyczny symulator Maszyny Turinga"
+      }
+    ]
+  },
+  {
+    "shortName": "WWW",
+    "subjectName": "WWW - Bazy danych i strony internetowe",
+    "subjectDescription": [
+      "Przedmiot dla licealistów w ramach którego zapoznamy się z podstawami baz danych jak i z podstawami tworzenia stron internetowych.",
+      "Nauczymy się pojęć, których używa się przy pracy z bazami danych, dowiemy się po co się je tworzy i gdzie się je wykorzystuje.",
+      "Poznamy różne technologie, które wykorzystuje się obecnie przy tworzeniu prostych stron internetowych by następnie wspólnymi siłami razem stworzyć stronę internetową."
+    ],
+    "subjectFiles": [],
+    "subjectLinks": []
+  }
+]

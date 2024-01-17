@@ -1,0 +1,74 @@
+@import "variables/colors.scss";
+@import "variables/dimensions.scss";
+
+.single-subject {
+  margin-bottom: 1rem;
+  border: 1px solid $rich-black;
+  position: relative;
+
+  h3 {
+    border-bottom: 1px solid $rich-black;
+    background: $rich-black;
+    color: $my-white;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    font-size: 1.25rem;
+
+    &:hover{
+      cursor: pointer;
+    }
+  }
+
+  .toggle-arrow {
+    position: absolute;
+    top: 0.25rem;
+    right: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+    color: $my-white;
+    font-size: 1.5rem;
+  }
+
+  .single-subject-content {
+    padding: 0.5rem 1rem;
+    overflow: hidden;
+
+    p {
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+    i,
+    a {
+      display: inline-block;
+      text-decoration: none;
+    }
+    a {
+      color: $paynes-gray;
+
+      &:hover {
+        color: $dark-blue;
+      }
+    }
+    i {
+      margin-bottom: 0.5rem;
+    }
+    .subject-files,
+    .subject-links {
+      display: flex;
+      flex-flow: column wrap;
+      align-items: flex-start;
+
+      a {
+        &:last-child {
+          margin-bottom: 0.5rem;
+        }
+      }
+    }
+  }
+
+  .unrolled{
+    height: 0;
+    padding: 0;
+  }
+}

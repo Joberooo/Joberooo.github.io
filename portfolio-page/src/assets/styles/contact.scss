@@ -1,0 +1,38 @@
+@import 'variables/colors.scss';
+@import 'variables/dimensions.scss';
+
+.contact-container {
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+}
+
+.contact-logo {
+  width: 100%;
+  grid-row: 1/4;
+  background: $rich-black;
+  border-radius: $base-radius;
+}
+
+@media screen and (max-width: 900px) {
+  .contact-container {
+    grid-template-columns: 0.5fr 1fr;
+  }
+  .contact-logo{
+    grid-row: 1/5;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contact-container {
+    display: block;
+    width: 100%;
+  }
+  .contact-logo{
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+  }
+}

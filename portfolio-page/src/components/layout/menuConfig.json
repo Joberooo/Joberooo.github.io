@@ -1,0 +1,17 @@
+[
+  {
+    "path": "/home",
+    "name": "home",
+    "pl": "Strona główna"
+  },
+  {
+    "path": "/subjects",
+    "name": "subjects",
+    "pl": "Przedmioty"
+  },
+  {
+    "path": "/contact",
+    "name": "contact",
+    "pl": "Kontakt"
+  }
+]
