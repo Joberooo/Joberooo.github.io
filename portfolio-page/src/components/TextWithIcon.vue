@@ -11,7 +11,7 @@ const props = defineProps({
 <template>
   <div class="twi-container">
     <div class="twi-icon">
-      <img :src="`./src/assets/img/icons/${imgName}`" :alt="imgAlt" />
+      <img :src="`./assets/icons/${imgName}`" :alt="imgAlt" />
     </div>
     <div class="twi-content">
       <p v-for="(contentText, index) in contentArray" :key="index">

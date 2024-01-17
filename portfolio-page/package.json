@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && xcopy /E /I /Y src\\assets\\img\\icons dist\\assets\\icons",
     "preview": "vite preview"
   },
   "dependencies": {
