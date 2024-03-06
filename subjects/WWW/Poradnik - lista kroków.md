@@ -35,7 +35,11 @@
 14. ```sudo chmod +x /usr/local/bin/docker-compose```
 
 # Lista kroków w celu wykonania pracy na Bazie Danych 
+0. Przejście do folderu, w którym znajduje się plik ***docker-compose.yml***
+    ``` cd /mnt/c/Users/imie.nazwisko/Desktop/Docker ``` (***Należy wpisać pełną ścieżkę dostępową do wcześniej pobranego folderu Docker***)
 1. Uruchomienie naszych kontenerów dockerowych
+    - komenda do uruchomienia docker deamon (***w momencie gdy pojawia się błąd "is docker running?" po wpisaniu poniżeszj komendy***)
+    ``` sudo service docker start ```
     - komenda do uruchomienia:
     ``` docker-compose up ```
 2. Uruchomienie środowiska do pracy z bazą danych
